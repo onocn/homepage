@@ -40,7 +40,7 @@ const openMusicShow = ref(false);
 
 // 一言数据
 const hitokotoData = reactive({
-  text: "这里应该显示一句话",
+  text: "彼方尚有荣光在",
   from: "七友",
 });
 
@@ -58,7 +58,7 @@ const getHitokotoData = async () => {
         fill: "#efefef",
       }),
     });
-    hitokotoData.text = "这里应该显示一句话";
+    hitokotoData.text = "彼方尚有荣光在";
     hitokotoData.from = "七友";
   }
 };
